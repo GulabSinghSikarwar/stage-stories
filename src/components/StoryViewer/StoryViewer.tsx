@@ -1,23 +1,19 @@
-import type React from "react";
-
-import type { Story } from "../../utils/app.interface";
+import type {  StoryViewerProps } from "../../utils/app.interface";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
-const StoryViewer: React.FC<
-    {
-        stories: Story[];
-        initialIndex: number;
-        onClose: () => void;
-    }
-> = ({ stories, initialIndex, onClose }) => {
+import StoryProgress from "../ProgressBar/StoryProgress";
+
+export default function StoryViewer({ stories, initialIndex, onClose }: StoryViewerProps) {
 
     const [currentUserIndex, setCurrentUserIndex] = useState(initialIndex)
     const [currentSegmentIndex, setCurrentSegmentIndex] = useState(0)
     const [progress, setProgress] = useState(0)
     const [isImageLoaded, setIsImageLoaded] = useState(false)
-    const intervalRef = useRef<NodeJS.Timeout | null>(null)
+    const intervalRef = useRef<number | null>(null)
 
     const currentStory = stories[currentUserIndex];
+
+
     const currentSegment = currentStory.slides[currentSegmentIndex]
 
     const startProgress = useCallback(() => {
@@ -52,15 +48,13 @@ const StoryViewer: React.FC<
         }
     }, [])
 
-
     const goToNext = useCallback(() => {
         stopProgress();
 
         if (currentSegmentIndex < currentStory.slides.length - 1) {
-            setCurrentUserIndex(prev => prev + 1)
+            setCurrentSegmentIndex(prev => prev + 1)
             setIsImageLoaded(false)
         }
-
         else if (currentUserIndex < stories.length - 1) {
             setCurrentUserIndex(prev => prev + 1)
             setCurrentSegmentIndex(0)
@@ -75,7 +69,6 @@ const StoryViewer: React.FC<
     const goToPrev = useCallback(() => {
         stopProgress()
 
-
         if (currentSegmentIndex > 0) {
             setCurrentSegmentIndex(prev => prev - 1)
             setIsImageLoaded(false)
@@ -85,9 +78,8 @@ const StoryViewer: React.FC<
             setCurrentUserIndex(prevUserIndex)
             setCurrentSegmentIndex(prevUser.slides.length - 1)
             setIsImageLoaded(false)
-        }
-        else {
-
+        } else {
+            onClose()
         }
 
     }, [currentUserIndex, currentSegmentIndex, stories, stopProgress])
@@ -122,7 +114,7 @@ const StoryViewer: React.FC<
             img.onerror = null;
 
         }
-    }, [currentSegment.image, handleImageLoad, goToNext])
+    }, [currentSegment?.image, handleImageLoad, goToNext])
 
 
 
@@ -138,6 +130,7 @@ const StoryViewer: React.FC<
             <div className="fixed inset-0 bg-black z-50 flex flex-col font-sans">
 
                 {/* Progress Bar  */}
+                <StoryProgress currentSlide={currentSegmentIndex} progress={progress} totalSlides={currentStory.slides.length} />
 
                 {/* Header With user info  */}
 
@@ -154,7 +147,7 @@ const StoryViewer: React.FC<
                     </div>
 
 
-                    <button onClick={onClose} className="text-white p-1 rounded-full hover:bg-grray-800  transition-colors"> <X size={24} /> </button>
+                    <button onClick={onClose} className="text-white p-1 rounded-full hover:bg-gray-800 hover:rounded-4xl   transition-colors"> <X size={24} /> </button>
                 </div>
 
                 <div className="flex-1 relative overflow-hidden flex items-center justify-center">

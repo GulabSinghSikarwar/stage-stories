@@ -11,3 +11,16 @@ export interface Story {
     profilePic: string;
     slides: StorySlides[];
 }
+
+
+export interface StoryViewerProps {
+    stories: Story[];
+    initialIndex: number;
+    onClose: () => void;
+}
+
+export interface StoryProgressProps {
+    totalSlides: number,
+    currentSlide: number;
+    progress: number;
+}

@@ -41,3 +41,4 @@ const StoryList: React.FC<{
         </div>
     )
 }
+export default StoryList

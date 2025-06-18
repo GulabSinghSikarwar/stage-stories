@@ -1,9 +1,9 @@
- [
+[
   {
     "id": "1",
     "username": "alice_adventures",
-    "profileImage": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
-    "segments": [
+    "profilePic": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
       {
         "id": "1-1",
         "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
@@ -24,8 +24,8 @@
   {
     "id": "2",
     "username": "bob_explorer",
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-    "segments": [
+    "profilePic": "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
       {
         "id": "2-1",
         "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=700&fit=crop",
@@ -41,8 +41,8 @@
   {
     "id": "3",
     "username": "charlie_photos",
-    "profileImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    "segments": [
+    "profilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "slides": [
       {
         "id": "3-1",
         "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
@@ -63,8 +63,8 @@
   {
     "id": "4",
     "username": "diana_nature",
-    "profileImage": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=150&h=150&fit=crop&crop=face",
-    "segments": [
+    "profilePic": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=150&h=150&fit=crop&crop=face",
+    "slides": [
       {
         "id": "4-1",
         "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=700&fit=crop",
@@ -75,8 +75,8 @@
   {
     "id": "5",
     "username": "evan_creative",
-    "profileImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
-    "segments": [
+    "profilePic": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
       {
         "id": "5-1",
         "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=700&fit=crop",
@@ -86,6 +86,91 @@
         "id": "5-2",
         "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
         "timestamp": "11h"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "username": "frank_foodie",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1693000697180-4e285198d71c?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "6-1",
+        "image": "https://images.unsplash.com/photo-1504712497042-fb70b5514f49?w=400&h=700&fit=crop",
+        "timestamp": "1h"
+      },
+      {
+        "id": "6-2",
+        "image": "https://images.unsplash.com/photo-1490647895058-293e5066060c?w=400&h=700&fit=crop",
+        "timestamp": "30m"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "username": "grace_gardens",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "7-1",
+        "image": "https://images.unsplash.com/photo-1488583486337-b690858e77c8?w=400&h=700&fit=crop",
+        "timestamp": "7h"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "username": "henry_hiker",
+     "profilePic": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "8-1",
+        "image": "https://images.unsplash.com/photo-1472214002777-be8e8585ac81?w=400&h=700&fit=crop",
+        "timestamp": "9h"
+      },
+      {
+        "id": "8-2",
+        "image": "https://images.unsplash.com/photo-1440778401308-41ca50d9229e?w=400&h=700&fit=crop",
+        "timestamp": "8h"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "username": "ivy_illustrates",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "9-1",
+        "image": "https://images.unsplash.com/photo-1520698851503-f3684a22b7a9?w=400&h=700&fit=crop",
+        "timestamp": "2h"
+      },
+      {
+        "id": "9-2",
+        "image": "https://images.unsplash.com/photo-1507914078494-3990664e16d4?w=400&h=700&fit=crop",
+        "timestamp": "1h"
+      },
+      {
+        "id": "9-3",
+        "image": "https://images.unsplash.com/photo-1492572186850-8b1731518f9e?w=400&h=700&fit=crop",
+        "timestamp": "30m"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "username": "jack_journey",
+      "profilePic": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "10-1",
+        "image": "https://images.unsplash.com/photo-1501785888041-af3ba6f06fd8?w=400&h=700&fit=crop",
+        "timestamp": "5h"
+      },
+      {
+        "id": "10-2",
+        "image": "https://images.unsplash.com/photo-1476510340578-8cf9b3c4f923?w=400&h=700&fit=crop",
+        "timestamp": "4h"
       }
     ]
   }
