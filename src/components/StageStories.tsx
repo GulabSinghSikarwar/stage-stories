@@ -1,8 +1,8 @@
-import React from 'react'
+import StoryContainer from './StoryContainer/StoryContainer'
 
 function StageStories() {
   return (
-    <div>StageStories</div>
+    <StoryContainer />
   )
 }
 

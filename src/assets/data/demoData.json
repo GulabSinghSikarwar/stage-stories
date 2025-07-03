@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "username": "alice_adventures",
+    "profilePic": "https://images.unsplash.com/photo-1654849838874-90d13f4300ae?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "1-1",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
+        "timestamp": "2h"
+      },
+      {
+        "id": "1-2",
+        "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=700&fit=crop",
+        "timestamp": "2h"
+      },
+      {
+        "id": "1-3",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=700&fit=crop",
+        "timestamp": "1h"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "username": "bob_explorer",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "2-1",
+        "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=700&fit=crop",
+        "timestamp": "4h"
+      },
+      {
+        "id": "2-2",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
+        "timestamp": "3h"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "username": "charlie_photos",
+    "profilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+    "slides": [
+      {
+        "id": "3-1",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
+        "timestamp": "6h"
+      },
+      {
+        "id": "3-2",
+        "image": "https://images.unsplash.com/photo-1518837695005-2083093ee35b?w=400&h=700&fit=crop",
+        "timestamp": "5h"
+      },
+      {
+        "id": "3-3",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=700&fit=crop",
+        "timestamp": "5h"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "username": "diana_nature",
+    "profilePic": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=150&h=150&fit=crop&crop=face",
+    "slides": [
+      {
+        "id": "4-1",
+        "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=400&h=700&fit=crop",
+        "timestamp": "8h"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "username": "evan_creative",
+    "profilePic": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "5-1",
+        "image": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&h=700&fit=crop",
+        "timestamp": "12h"
+      },
+      {
+        "id": "5-2",
+        "image": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=700&fit=crop",
+        "timestamp": "11h"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "username": "frank_foodie",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1693000697180-4e285198d71c?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "6-1",
+        "image":  "https://images.pexels.com/photos/32293380/pexels-photo-32293380.jpeg",
+        "timestamp": "1h"
+      },
+      {
+        "id": "6-2",
+        "image": "https://images.pexels.com/photos/28866022/pexels-photo-28866022.jpeg",
+        "timestamp": "30m"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "username": "grace_gardens",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "7-1",
+        "image":  "https://images.pexels.com/photos/32293380/pexels-photo-32293380.jpeg",
+        "timestamp": "7h"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "username": "henry_hiker",
+     "profilePic": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "8-1",
+        "image": "https://images.pexels.com/photos/28866022/pexels-photo-28866022.jpeg",
+        "timestamp": "9h"
+      },
+      {
+        "id": "8-2",
+        "image":  "https://images.pexels.com/photos/20349779/pexels-photo-20349779.jpeg",
+        "timestamp": "8h"
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "username": "ivy_illustrates",
+    "profilePic": "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "9-1",
+        "image": "https://images.pexels.com/photos/10654218/pexels-photo-10654218.jpeg",
+        "timestamp": "2h"
+      },
+      {
+        "id": "9-2",
+        "image":  "https://images.pexels.com/photos/3614942/pexels-photo-3614942.jpeg",
+        "timestamp": "1h"
+      },
+      {
+        "id": "9-3",
+        "image": "https://images.pexels.com/photos/30893228/pexels-photo-30893228.jpeg",
+        "timestamp": "30m"
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "username": "jack_journey",
+      "profilePic": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "slides": [
+      {
+        "id": "10-1",
+        "image": "https://images.pexels.com/photos/9169747/pexels-photo-9169747.jpeg",
+        "timestamp": "5h"
+      },
+      {
+        "id": "10-2",
+        "image": "https://images.pexels.com/photos/10450868/pexels-photo-10450868.jpeg",
+        "timestamp": "4h"
+      },
+      {
+        "id": "10-3",
+        "image": "https://images.pexels.com/photos/7511847/pexels-photo-7511847.jpeg",
+        "timestamp": "4h"
+      }
+    ]
+  }
+]

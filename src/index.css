@@ -1,3 +1,4 @@
+@import "tailwindcss";
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -42,7 +43,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -62,7 +62,27 @@ button:focus-visible {
   a:hover {
     color: #747bff;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+  
+}
+
+/* body::-webkit-scrollbar{
+  width: 2px;
+  height: 2px;
+} */
+ body::-webkit-scrollbar{
+  width: 2px;
+  height: 2px;
+ }
+
+body::-webkit-scrollbar-track{
+  background-color: #e2e8f0;
+  border-radius: 0.5rem;
+  height: 2px;
+}
+body::-webkit-scrollbar-thumb{
+  background: #a0aec0;
+  border-radius: 0.5rem;
+}
+body::-webkit-scrollbar-thumb:hover{
+  background: #718096;
 }
